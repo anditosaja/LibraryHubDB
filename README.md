@@ -18,6 +18,9 @@ Pastikan semua sudah terinstall
 * Mongoose
 * dotenv
 
+## CMD 
+Pastikan Command Prompt berada di Root dengan perintah `cd..`
+
 ## Instalasi
 Install semua yang diperlukan, lakukan di terminal cmd
 * `npm install express`
@@ -32,9 +35,7 @@ Buat Folder agar lebih terstruktur.
 *  `mkdir seed`
 
 ## Konfigurasi Database
-Memmbuat file ".env" yang berisikan:
-`PORT=3000
-MONGO_URI=mongodb://127.0.0.1:27017/libraryHubDB`
+Lakukan di root, buat file ".env" yang berisikan PORT dan MONGO_URI (untuk koneksi ke lokal MongoDB)
 
 ## MongoDB
 * Jalankan MongoDB Lokal, dapat dicek pada "services.msc" apakah sudah running
