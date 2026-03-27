@@ -37,7 +37,8 @@ Memmbuat file ".env" yang berisikan:
 MONGO_URI=mongodb://127.0.0.1:27017/libraryHubDB`
 
 ## MongoDB
-Jalankan MongoDB Lokal
+* Jalankan MongoDB Lokal, dapat dicek pada "services.msc" apakah sudah running
+* Jalankan MongoDB Compass, koneksikan ke: `mongodb://127.0.0.1:27017`
 
 ## SEED
 Seed data ini berisikan dengan dummy data, dapat dijalankan di terminal cmd
